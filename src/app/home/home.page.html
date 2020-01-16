@@ -1,0 +1,122 @@
+
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+	Precautinary Steps
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="ion-padding">
+    
+
+	<ion-card>
+        <img src="../assets/image1.jpeg" />
+        <ion-card-header>
+          <ion-card-subtitle>Floods</ion-card-subtitle>
+          <ion-card-title>Primary steps</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          <ul>
+          <li>Depending on where you are, and the impact and the warning time of flooding, go to the safe location that you previously identified.</li>
+          </ul>
+          <ion-button (click)="openModal()">Read More</ion-button>
+ 
+  	  <p *ngIf="dataReturned">{{dataReturned}}</p>
+        </ion-card-content>
+      </ion-card>
+      
+	<ion-card>
+        <img src="../assets/image2.jpeg" />
+        <ion-card-header>
+          <ion-card-subtitle>Fire</ion-card-subtitle>
+          <ion-card-title>Primary steps</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+        <ul>
+            <li> Crawl low under any smoke to your exit - heavy smoke and poisonous gases collect first along the ceiling.</li>
+   
+	</ul>
+          <ion-button (click)="openModal1()">Read More</ion-button>
+ 
+  	  <p *ngIf="dataReturned">{{dataReturned1}}</p>
+        </ion-card-content>
+      </ion-card>
+
+	<ion-card > 
+        <img src="../assets/image3.jpg" />
+        <ion-card-header>
+          <ion-card-subtitle>Earthquake</ion-card-subtitle>
+          <ion-card-title>Primary steps</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+	<ul>
+             <li> If an earthquake happens, protect yourself right away. </li>
+    	      <li>If you are in a vehicle, pull over and stop. Set your parking brake. </li>
+	</ul>
+          <ion-button (click)="openModal2()">Read More</ion-button>
+ 
+  	  <p *ngIf="dataReturned">{{dataReturned}}</p>
+        </ion-card-content>
+      </ion-card>
+
+	
+	<ion-card > 
+        <img src="../assets/image4.jpeg" />
+        <ion-card-header>
+          <ion-card-subtitle>Cyclone</ion-card-subtitle>
+          <ion-card-title>Primary steps</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+	<ul>
+	<li>When thunder roars, go indoors. A sturdy building is the safest place to be during a thunderstorm.</li>
+	</ul>
+          <ion-button (click)="openModal3()">Read More</ion-button>
+ 
+  	  <p *ngIf="dataReturned">{{dataReturned}}</p>
+        </ion-card-content>
+      </ion-card>
+      
+      
+      
+  	<ion-card > 
+        <img src="../assets/image5.jpeg" />
+        <ion-card-header>
+          <ion-card-subtitle>Explosions</ion-card-subtitle>
+          <ion-card-title>Primary steps</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+	<ul>
+	<li>Get under a sturdy table or desk if things are falling around you. When they stop falling, leave quickly, watching for obviously weakened floors and stairways.</li>
+	</ul>
+          <ion-button (click)="openModal4()">Read More</ion-button>
+ 
+  	  <p *ngIf="dataReturned">{{dataReturned}}</p>
+        </ion-card-content>
+      </ion-card>
+      
+      
+      	<ion-card > 
+        <img src="../assets/image6.jpg" />
+        <ion-card-header>
+          <ion-card-subtitle>Mass Attacks alert</ion-card-subtitle>
+          <ion-card-title>Primary steps</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+	<ul>
+	<b><li>Stay alert</li></b>
+
+		    Pay attention to what is happening around you so that you can react quickly to attacks.
+
+	</ul>
+          <ion-button (click)="openModal5()">Read More</ion-button>
+ 
+  	  <p *ngIf="dataReturned">{{dataReturned}}</p>
+        </ion-card-content>
+      </ion-card>
+
+  </div>
+   
+</ion-content>
+

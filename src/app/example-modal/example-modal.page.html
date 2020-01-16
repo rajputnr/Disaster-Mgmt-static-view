@@ -1,0 +1,99 @@
+<ion-header>
+    <ion-toolbar text-center>
+      <ion-title>{{modalTitle}}</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content padding>
+    <ion-grid>
+      <ion-row>
+     
+        <ion-col>
+        <div id = "Flood" style="display:none">
+         	<ul>
+         	<li> If told to evacuate, do so immediately. Never drive around barricades. Local responders use them to safely direct traffic out of flooded areas.</li>
+         	<li>Listen to EAS, NOAA Weather Radio, or local alerting systems for current emergency information and instructions.</li>
+    <li>Do not walk, swim, or drive through flood waters. Turn Around. Don’t Drown!</li>
+    <li>Stay off bridges over fast-moving water. Fast-moving water can wash bridges away without warning.</li>
+    <li>If your vehicle is trapped in rapidly moving water, then stay inside. If water is rising inside the vehicle, then seek refuge on the roof.</li>
+    <li>If trapped in a building, then go to its highest level. Do not climb into a closed attic. You may become trapped by rising floodwater. Go on the roof only if necessary. Once there, signal for help.</li>
+         	</ul>
+	</div>
+	<div id = "Fire" style="display:none">
+		<ul>
+		<li> Before opening a door, feel the doorknob and door. If either is hot, or if there is smoke coming around the door, leave the door closed and use your second way out.</li>
+    <li>If you open a door, open it slowly. Be ready to shut it quickly if heavy smoke or fire is present.</li>
+<li>If you can’t get to someone needing assistance, leave the home and call 9-1-1 or the fire department. Tell the emergency operator where the person is located.</li>
+    <li>If pets are trapped inside your home, tell firefighters right away.</li>
+    <li>If you can’t get out, close the door and cover vents and cracks around doors with cloth or tape to keep smoke out.  Call 9-1-1 or your fire department. Say where you are and signal for help at the window with a light-colored cloth or a flashlight.</li>
+    <li>If your clothes catch fire, stop, drop, and roll – stop immediately, drop to the ground, and cover your face with your hands.  Roll over and over or back and forth until the fire is out.</li>
+     <li> If you or someone else cannot stop, drop, and roll, smother the flames with a blanket or towel.  Use cool water to treat the burn immediately for 3 to 5 minutes.  Cover with a clean, dry cloth.  Get medical help right away by calling 9-1-1 or the fire department.</li>
+
+		</ul>
+	</div>
+	<div id = "Earthquake" style="display:none">
+         	 <ul>
+         	 <li>If you are in bed, turn face down and cover your head and neck with a pillow. </li>
+    <li>If you are outdoors, stay outdoors away from buildings. </li>
+    <li>Do not get in a doorway. </li>
+    <li>Do not run outside. </li>
+    	</ul>
+	</div>
+	<div id = "Cyclone" style="display:none">
+		<ul>
+		<li>Pay attention to weather reports and warnings of thunderstorms. Be ready to change plans, if necessary, to be near shelter.</li>
+    <li>When you receive a thunderstorm warning or hear thunder, go inside immediately.</li>
+    <li>If indoors, avoid running water or using landline phones. Electricity can travel through plumbing and phone lines.</li>
+    <li>Protect your property. Unplug appliances and other electric devices. Secure outside furniture.</li>
+     <li>If boating or swimming, get to land and find a sturdy, grounded shelter or vehicle immediately.</li>
+     <li>If necessary, take shelter in a car with a metal top and sides. Do not touch anything metal.</li>
+     <li>Avoid flooded roadways. Turn Around. Don’t Drown! Just six inches of fast-moving water can knock you down, and one foot of moving water can sweep your vehicle away.</li>
+    		</ul>
+	</div>
+	<div id = "Explosions" style="display:none">
+         	<ul>
+         	<li>Do not use elevators.</li>
+    <li>Stay low if there is smoke. Do not stop to retrieve personal possessions or make phone calls.</li>
+    <li>Check for fire and other hazards.</li>
+    <li>Once you are out, do not stand in front of windows, glass doors or other potentially hazardous areas.</li>
+    <li>If you are trapped in debris, use a flashlight, whistle or tap on pipes to signal your location to rescuers.</li>
+    <li>Shout only as a last resort to avoid inhaling dangerous dust.</li>
+    <li>Cover your nose and mouth with anything you have on hand.</li>
+         	</ul>
+	</div>
+	<div id = "Mass Attacks" style="display:none">
+		<ul>
+		<b><li>Run to safety</li></b>
+
+    If there is an accessible escape path, attempt to evacuate the building or area, regardless of whether others agree to follow.
+
+	<b><li>Cover and hide</li></b>
+
+    If evacuation is not possible, find a place to hide out of view of the attacker and if possible, put a solid barrier between yourself and the threat.<br>
+
+    Keep silent.
+
+	<b><li>Defend, disrupt, fight</li></b>
+
+    As a last resort, when you can’t run or cover, attempt to disrupt the attack and/or incapacitate the attacker.
+<br>
+    Be aggressive and commit to your actions.
+
+	<b><li>Help the wounded</li></b>
+
+    Take care of yourself first and then, if you are able, help the wounded get to safety and provide immediate first care.
+
+
+		</ul>
+	</div>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col text-center>
+          <ion-button (click)="closeModal()">Close</ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-content>
+
+
+
